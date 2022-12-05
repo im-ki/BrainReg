@@ -4,13 +4,14 @@ This is the code for paper Automatic Landmark Detection and Registration of Brai
 
 To make use of our model, DBSnet should be run first:
 
-'''
+```
 cd DBSnet
 python train.py
-'''
+```
 
 CPnet should be trained after DBSnet is trained. To load the args, code could be run as:
 
-'''
+```
 cd CPnet
 python train.py -f CP_epochxxx.py
+```
