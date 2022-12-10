@@ -15,3 +15,9 @@ CPnet should be trained after DBSnet is trained. To load the args, code could be
 cd CPnet
 python train.py -f CP_epochxxx.py
 ```
+
+LDnet should be trained separately:
+```
+cd LDnet
+python train.py
+```
